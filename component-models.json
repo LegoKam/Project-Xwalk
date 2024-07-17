@@ -187,41 +187,53 @@
     ]
   },
   {
-    "id":"teaser",
-    "fields":[
+    "id": "teaser",
+    "fields": [
       {
-        "component":"reference",
+        "component": "reference",
         "valueType": "string",
-        "name":"image",
-        "label":"Background Image",
+        "name": "background_image",
+        "label": "Background Image",
         "multi": false
       },
       {
-        "component":"text",
-        "name":"background_imageAlt",
+        "component": "text",
+        "name": "background_imageAlt",
         "value": "",
-        "label":"Image Alt",
-        "valueType": "string"
-      },      
-      {
-        "component":"text",
-        "name":"pretitle",
-        "value": "",
-        "label":"Pre Title",
+        "label": "Image Alt",
         "valueType": "string"
       },
       {
-        "component":"text",
-        "name":"title",
+        "component": "text",
+        "name": "foreground_pretitle",
         "value": "",
-        "label":"Title",
+        "label": "Pre title",
         "valueType": "string"
       },
       {
-        "component":"richtext",
-        "name":"description",
+        "component": "text",
+        "name": "foreground_title",
         "value": "",
-        "label":"Description",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "select",
+        "name": "foreground_titleType",
+        "value": "h3",
+        "label": "Title Type",
+        "valueType": "string",
+        "options": [
+          {"name": "h2","value": "h2"},
+          {"name": "h3","value": "h3"},
+          {"name": "h4","value": "h4"}
+        ]
+      },
+      {
+        "component": "richtext",
+        "name": "foreground_description",
+        "value": "",
+        "label": "Description",
         "valueType": "string"
       }
     ]
