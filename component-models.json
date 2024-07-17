@@ -198,6 +198,13 @@
       },
       {
         "component":"text",
+        "name":"background_imageAlt",
+        "value": "",
+        "label":"Image Alt",
+        "valueType": "string"
+      },      
+      {
+        "component":"text",
         "name":"pretitle",
         "value": "",
         "label":"Pre Title",
